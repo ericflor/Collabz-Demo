@@ -13,6 +13,7 @@ gem 'puma', '~> 3.11'
 gem 'sass-rails', '~> 5.0'
 gem 'bootstrap', '~> 4.3.1'
 gem "bootstrap_form", ">= 4.2.0"
+gem "font-awesome-rails"
 gem 'jquery-rails'
 gem 'sprockets-rails', :require => 'sprockets/railtie'
 gem 'faker'

@@ -3,8 +3,15 @@
 @import "partials/layout/*";
 @import "base/variables";
 @import "base/default";
+@import "font-awesome";
 
+.container {
+  padding: 0;
+}
 
+.row {
+  margin: 0;
+}
 
 /*
 *= require rails_bootstrap_forms
