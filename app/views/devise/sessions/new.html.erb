@@ -2,7 +2,7 @@
   <div class="row justify-content-md-center">
     <div class="col-sm-6 col-sm-offset-3">
       <br>
-      <h2 class="text-center">Log in</h2>
+      <h1 class="text-center">Log in</h1>
 
         <%= bootstrap_form_for(resource, 
                                as: resource_name, 
@@ -11,19 +11,19 @@
         <%= f.email_field :email, 
                           autofocus: true, 
                           class: 'form-control', 
-                          placeholder: 'email' %>
+                          placeholder: 'Email' %>
 
         <%= f.password_field  :password, 
                               autocomplete: "off", 
                               class: 'form-control',
-                              placeholder: 'password' %>
+                              placeholder: 'Password' %>
 
 
         <% if devise_mapping.rememberable? -%>
           <%= f.check_box :remember_me %>
         <% end -%>
-
-        <%= f.submit "Log in", class: 'form-control login-button' %>
+        <br>
+        <%= f.submit "Log in", class: 'btn login-button btn-lg btn-success' %>
 
       <% end %>
     </div>

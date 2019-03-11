@@ -2,10 +2,33 @@
   background-color: black !important;
 }
 
+
 .navbar-brand{
   color: white !important;
 }
 
-.nav-link{
+
+.navbar .navbar-toggler{
+  
+  background-color: white;
+}
+
+.nav-link {
   color: white !important;
+  position: relative;
+  justify-content: right;
+}
+
+.nav-link-drop {
+  padding-left: 10px;
+}
+
+.dropdown-toggle, .dropdown-menu {
+  background: black !important;
+  border: none;
+}
+
+.dropdown-menu a:hover {
+  color: black !important;
+  background: white !important;
 }
