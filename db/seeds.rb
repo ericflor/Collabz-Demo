@@ -13,8 +13,8 @@ end
 
 
 def seed_categories
-  hobby = ['Music', 'Writing', 'Design', 'Science', 'Collecting', 'Programming' 'Reading', 'Other']
-  study = ['Arts and Humanities', 'Programming', 'Music Theory/Production' 'Physical Science & Engineering', 'Mathematics',
+  hobby = ['Music', 'Writing', 'Design', 'Science', 'Collecting', 'Programming', 'Reading', 'Other']
+  study = ['Arts and Humanities', 'Programming', 'Music Production/Theory', 'Physical Science & Engineering', 'Mathematics',
           'Computer Science', 'Data Science', 'Economics/Finance', 'Business',
           'Social Sciences', 'Language', 'Other']
   team = ['Collaboration', 'Study', 'Development', 'Hobby', 'Other']
